@@ -1,0 +1,162 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 50px;
+  padding: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 380px;
+  align-items: center;
+  border-style: none;
+  border-radius: 7px;
+  box-shadow: 0px 0px 4px 3px rgba(0, 0, 0, 0.67);
+}
+
+input {
+  width: 100%;
+  height: 20%;
+  border-radius: 2px;
+  background-color: black;
+  border-style: solid;
+  border-color: black;
+  color: white;
+  font-size: 39px;
+  text-align: right;
+  padding-right: 5px;
+}
+
+input::-webkit-inner-spin-button {
+  appearance: none;
+  margin: 0;
+}
+
+input:focus {
+  background-color: #463f3a;
+}
+
+.buttons {
+  background-color: white;
+  border-radius: 7px;
+  height: 305px;
+}
+.symbols {
+  margin-top: 10px;
+  width: 98%;
+  display: flex;
+  margin-left: 1px;
+  justify-content: space-around;
+}
+
+.symbol {
+  width: 20%;
+  background-color: white;
+  border-radius: 5px;
+  color: black;
+  font-size: 25px;
+  text-align: center;
+  border-style: none;
+  cursor: pointer;
+}
+
+.symbol:hover {
+  background-color: black;
+  color: white;
+}
+
+.counts {
+  display: flex;
+  margin: 8px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.numbers {
+  margin-top: 5px;
+  width: 74%;
+  height: 250px;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+}
+
+.number {
+  width: 32%;
+  height: 18%;
+  background-color: white;
+  border-radius: 5px;
+  color: black;
+  font-size: 25px;
+  text-align: center;
+  border-style: none;
+  cursor: pointer;
+}
+
+#decimal {
+  width: 32%;
+  height: 18%;
+  background-color: white;
+  border-radius: 5px;
+  color: black;
+  font-size: 45px;
+  text-align: center;
+  border-style: none;
+  cursor: pointer;
+  margin-top: -10px;
+}
+
+#decimal:hover {
+  background-color: white;
+}
+
+.number:hover {
+  background-color: white;
+}
+
+.c {
+  width: 32%;
+  height: 18%;
+  background-color: white;
+  border-radius: 5px;
+  color: black;
+  font-size: 25px;
+  text-align: center;
+  border-style: none;
+  cursor: pointer;
+}
+
+.c:hover {
+  background-color: white;
+  color: #edede9;
+}
+
+.equal {
+  margin-top: 5px;
+  margin-right: 4px;
+  height: 233px;
+  width: 60px;
+  padding-left: 3px;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #edede9;
+  background-color: white;
+  cursor: pointer;
+  color: black;
+  font-size: 25px;
+}
+
+.equal:hover {
+  border-color: #edede9;
+}
+
+.black {
+  background-color: black;
+}
